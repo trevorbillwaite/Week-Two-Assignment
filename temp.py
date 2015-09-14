@@ -25,6 +25,8 @@ __author__ = 'Your Name'
 # Input
 
 F = eval(input("Please enter a temperature in Farenheit: "))
+range(0,101)
+range = "myRange"
 
 C = (F-32) * 5 / 9
 
@@ -32,4 +34,4 @@ C = (F-32) * 5 / 9
 
 # Output
 
-print("The temperature ", F , "degrees Farenheit is equal to ", C , "degrees Celsius.")
+print("The temperature", F , "degrees Farenheit is equal to ", C , "degrees Celsius.")
