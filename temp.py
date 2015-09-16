@@ -1,12 +1,10 @@
-# Default shell for a Python 3.x program
-# Copy this and rename it to write your own code
-#
-__author__ = 'Your Name'
 
-# Your class
-# Name of program
-#
-# Brief description of what program does.
+__author__ = 'trevorbillwaite'
+
+# Introduction to Computer Science
+# temp.py
+
+# Program will compute and print a table of Celsius temperatures and the Fahrenheit equivalents every 10 degrees from 0C to 100C
 
 # Declare Magic Numbers and Constants
 
@@ -24,14 +22,24 @@ __author__ = 'Your Name'
 
 # Input
 
-F = eval(input("Please enter a temperature in Farenheit: "))
-range(0,101)
-range = "myRange"
+# First Assignment
 
-C = (F-32) * 5 / 9
+constant = 32
+fraction = (9 / 5)
+for C in range(0,101,10):
+    F = (C * fraction) + constant
+    print(C,F)
+    
+# Second Assignment
+
+F = eval(input("Please enter a temperature in Farenheit: "))
+fraction = (5 / 9)
+C = (F - constant) * fraction
+print("The temperature " ,F, "in Farenheit is equivalent to " ,C, "in Celsius.")
+
+
 
 # Process
 
 # Output
 
-print("The temperature", F , "degrees Farenheit is equal to ", C , "degrees Celsius.")
